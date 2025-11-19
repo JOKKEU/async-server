@@ -47,7 +47,7 @@ void dump_before_shutdown(struct _server* server)
 		struct client_info* cl = server->my_client_ips[i];
 		if (cl != NULL)
 		{
-			fprintf(fp, "[Index: %zu] IP: %-15s | FD: %d | Last Active: %s\n", i, cl->client_ip, cl->client_fd, cl->last_activity);
+			fprintf(fp, "[Index: %zu] IP: %-15s | FD: %d | Connected: %s\n", i, cl->client_ip, cl->client_fd, cl->last_activity);
 		}
 	}
 	fprintf(fp, "\n");
