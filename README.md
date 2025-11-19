@@ -36,7 +36,7 @@ git clone https://github.com/JOKKEU/async-server && cd async-server && sudo dpkg
 <img width="981" height="233" alt="image" src="https://github.com/user-attachments/assets/e4ef58f6-f4d8-47e6-beb1-1e213dfc3dd0" />
 
 3) /shutdown - выключает сервер (при отключении, сервер сохраняет дамп).
-4) 
+
 **Как это выглядит:**
 
 <img width="981" height="209" alt="image" src="https://github.com/user-attachments/assets/13ea97d6-a99d-4058-bcae-b08ef8ed1500" />
